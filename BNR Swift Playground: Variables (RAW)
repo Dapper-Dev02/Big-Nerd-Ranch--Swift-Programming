@@ -1,0 +1,11 @@
+import Cocoa
+
+let numberOfStoplights: Int = 4
+var population: Int
+population = 5422
+let TownName: String = "Crusader County"
+let TownDescription = "\(TownName) has a population of \(population) and \(numberOfStoplights) stoplights."
+print (TownDescription)
+// Bronze Challenge code is below! Add a new variable representing Crusader County's elevation.
+let TownElevation: String = "Crusader County's elevation is 3000 Feet above sea level"
+print (TownElevation)
