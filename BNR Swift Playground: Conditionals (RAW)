@@ -1,0 +1,11 @@
+let population: Int = 5422
+let message: String
+let HasPostOffice: Bool = true
+if population < 10000 {message = "\(population) is a small town!"}
+    else if population >= 10000 && population < 50000 {message = "\(population) is a medium sized town!"}
+// Bronze Challenge code below. (Line 9). Add an additional "else/if" statement to the town-sizing code to see if your town's population is very large.
+    else if population > 75000 {message = "\(population) is a very large town!"}
+    else {message = "\(population) is pretty big!"}
+print (message)
+
+if !HasPostOffice {print("Where do we buy stamps?")}
